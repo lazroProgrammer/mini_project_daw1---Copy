@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'roboto slab';
+    src: url(../font_face/RobotoSlab-Regular.ttf);
+}
+
+body {
+    font-family: 'roboto slab';
+    padding: 20px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(80, 109, 203, 0.4)), url(./quino-al-mBQIfKlvowM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+    text-align: center;
+}
+
+.form {
+
+
+    display: flex;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+
+    padding: 20px;
+    display: block;
+    border: 1px solid white;
+    align-items: center;
+    width: 90%;
+    max-width: 800px;
+    backdrop-filter: blur(3px);
+}
+
+textarea,
+input,
+button {
+
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+
+select {
+    display: inline;
+}
+
+button:hover {
+    background-color: aqua;
+}
